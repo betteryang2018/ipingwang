@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_body{
+	border:5px solid #e7e7e7;
+	width:1010px;
+	margin-top:5px;
+	position:relative;
+	height:885px;
+}
+
+.main_body .box1{
+	font-size:12px;
+	line-height:22px;
+	
+}
+
+.main_body .box1_containt{
+	border:1px solid #fcd0ad;
+	background-color:#fff2d5;
+	margin:0px auto;
+	width:920px;
+	height:180px;
+	padding:5px;
+	font-family:'simsun';
+}
+
+.main_body .box1 p{
+	font-size:18px;
+	color:#eb8022;
+	font-weight:bold;
+	margin-left:38px;
+}
+
+.box1_containt .left_part{
+	float:left;
+	width:370px;
+}
+
+.box1_containt .left_part img{
+	display:inline-block;
+	float:left;
+	margin-right:5px;
+}
+
+.box1_containt .left_part .user_name{
+	display:block;
+	color:#6e59e4;
+	font-weight:bold;
+	font-size:16px;
+	margin-bottom:5px;
+}
+
+.box1_containt .left_part a .jiangping{
+	font-size:12px;
+	color:#6e59e4;
+}
+
+.box1_containt .medium_part{
+	float:left;
+	margin:0px;
+	width:220px;
+}
+
+.box1_containt .medium_part .take_more{
+	color:#b0aea1;
+}
+
+.box1_containt dt{
+	font-weight:bold;
+}
+
+.box1_containt .medium_part dd{
+	margin-left:0px;
+}
+
+
+.main_body .box2{
+	font-size:12px;
+	line-height:22px;
+}
+
+.main_body .box2_containt{
+	margin:0px auto;
+	width:930px;
+	height:225px;
+}
+
+.main_body .box2_containt img{
+	width:455px;
+}
+
+.main_body .box2_containt .pic1{
+	margin-right:15px;
+}
+
+.main_body .box2 p{
+	font-size:18px;
+	font-weight:bold;
+	margin-left:38px;
+	color:#8f8f8f;
+}
+
+.main_body .box2 .xfqk{
+	font-size:12px;
+	color:#8f8f8f;
+	margin:15px 0px 10px 40px;
+}
+
+.main_body .box3{
+	width:930px;
+	padding:5px;
+	margin:0 auto;
+
+}
+
+.main_body .box3 ul.ctt_nr{
+	border:2px solid #fa8929;
+	margin:0 auto;
+	font-size:14px;
+	color:#888;
+	font-family:'Tahoma';
+	line-height:40px;
+}
+
+.main_body .box3 li.yellow_bg{
+	background-color:#feffef;
+	margin-left:-40px;
+	padding-left:40px;
+}
+
+.main_body .box3 li.gray_bg{
+	background-color:#efeefe;
+	margin-left:-40px;
+	padding-left:40px;
+}
+
+.main_body .box3 .ctt_nr .store{
+	margin:0px 100px 0px 150px;
+}
+
+.main_body .box3 .top_bar{
+	background-color:#fa8929;
+	line-height:34px;
+}
+
+.main_body .box3 .top_bar .tit{
+	float:left;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	padding:0 20px;
+	margin-right:25px;
+}
+
+.main_body .box3 .top_bar .time{
+	float:left;
+}
+
+
+.main_body .box3 .top_bar input{
+	width:40px;
+	height:14px;
+	padding-left:4px;
+	font-weight:bold;
+	margin-left:-25px;
+}
+
+.main_body .box3 .top_bar input.year{
+	width:50px;
+}
+
+.main_body .box3 .top_bar .arrow_down{
+	width:20px;
+	position:relative;
+	top:4px;
+	left:-26px;
+}
+
+.main_body .box3 .top_bar .year_input .arrow_down{
+	position:relative;
+	left:-25px;
+}
+
+.main_body .box3 .top_bar .chaxun{
+	border:1px solid #e5ecf6;
+	background-color:#e5ecf6;
+	border-radius:3px;
+	font-weight:bold;
+	font-size:14px;
+	line-height:18px;
+	width:45px;
+	position:relative;
+	left:-18px;
+}
+
+.main_body .box4{
+	position:absolute;
+	right:45px;
+	bottom:20px;
+	font-size:12px;
+}
+
+.main_body .box4 a{
+	display:inline-block;
+	padding:4px 7px;
+	border:1px solid #d4d9dc;
+	text-align:center;
+	color:#5274b3;
+	font-family:'Tahoma';
+}
+
+.main_body .box4 a:hover{
+	color:#fff;
+	background-color:#6766cc;
+	border:1px solid #6766cc;
+}
+
+.main_body .box4 .first_page{
+	color:#fff;
+	font-weight:bold;
+	background-color:#6766cc;
+	border:1px solid #6766cc;
+}
+
+.main_body .box4 .next_page {
+	padding:3px 7px;
+	position:relative;
+}
+
+.main_body .box4 .next_page img{
+	position:relative;
+	width:9px;
+	left:3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

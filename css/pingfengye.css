@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_body{
+	margin-top:5px;
+	width:960px;
+	border:5px solid #e7e7e7;
+	padding:30px 25px;
+}
+
+p,ul{
+	margin:0px;
+	padding:0px;
+}
+.main_body .top_tit {
+	font-size:14px;
+}
+
+.main_body .yellow{
+	font-size:18px;
+	color:#f78a04;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+
+.main_body .containt{
+	position:relative;
+	width:1020px;
+	height:350px;
+}
+
+.main_body .containt .left_part{
+	float:left;
+}
+
+.main_body .containt .left_part ul{
+	color:#f78a04;
+	margin-top:30px;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.main_body .containt .left_part li{
+	margin-bottom:10px;
+}
+
+.main_body .containt .left_part li img{
+	position:relative;
+	top:8px;
+	left:5px;
+}
+
+
+.main_body .containt .left_part button{
+	background:url(../img/else/%E5%95%86%E6%88%B7%E4%BF%A1%E6%81%AF_%E8%AF%A6%E7%BB%86_03-2.png) repeat-x;
+	width:75px;
+	height:30px;
+	line-height:25px;
+	border:none;
+	color:#fff;
+	font-size:16px;
+	border-radius:5px;
+	margin-top:18px;
+}
+
+.main_body .containt .right_part{
+	position:absolute;
+	top:20px;
+	right:60px;
+	width:400px;
+	padding:20px;
+	height:280px;
+	border:1px solid #e5e5e5;
+	box-shadow:0px 0px 0px 2px #efefef;
+	border-radius:3px;
+	font-size:14px;
+}
+
+.main_body .containt .right_part .one{
+	margin-bottom:80px;
+}
+
+.main_body .containt .right_part .two .connect{
+	float:left;
+}
+
+.main_body .containt .right_part .two img{
+	position:absolute;
+	right:30px;
+	bottom:30px;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

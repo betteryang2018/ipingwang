@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+
+dd{
+	margin:0px;
+	padding:0px;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+}
+
+.shxx_wrapper{
+	position:relative;
+	height:1400px;
+}
+
+.blue{
+	color:#7878d2;
+}
+
+.red{
+	color:#cc0000;
+}
+	
+.gray{
+	color:#999;
+	font-size:12px;
+}
+
+.line{
+	color:#d9d9d9;
+	padding:0px 5px;
+}
+
+button{
+	cursor:pointer;
+}
+
+/* left_part css start */
+.left_part {
+	position:absolute;
+	left:0px;
+	top:20px;
+	text-align:left;
+	margin-right:10px;
+	line-height:30px;
+}
+
+.left_part .left_box1{
+	width:230px;
+	border:1px solid #e7e7e7;
+	margin-bottom:10px;
+	height:175px;
+	line-height:32px;
+}
+
+.left_box1 .top_bar1{
+	border-bottom:2px solid #f3740b;
+	padding-left:15px;
+}
+
+.left_box1 .chwl_sort{
+	padding-left:15px;
+	padding-top:5px;
+}
+
+.left_box1 .chwl_sort a{
+	display:block;
+	font-size:14px;
+	color:#7878d2;
+}
+
+.left_box1 .chwl_sort img{
+	position:relative;
+	top:1px;
+}
+
+.left_box1 .chwl_sort a.on{
+	color:#d83030;
+	font-weight:bold;
+}
+
+.left_part .left_box2, .left_part .left_box3{
+	width:230px;
+	border:1px solid #e7e7e7;
+	margin-bottom:10px;
+}
+
+.left_part .top_bar2{
+	color:#d83030;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+	padding-bottom:2px;
+}
+
+.left_part_ul{
+	padding-left:10px;
+}
+
+.left_part_ul li{
+	font-size:12px;
+	line-height:3px;
+	margin:10px 0px 20px 10px;
+}
+
+.left_part .left_part_ul img{
+	float:left;
+	position:relative;
+	top:-2px;
+	width:6px;
+}
+
+.left_part_ul strong{
+	color:#333;
+}
+
+
+/* right_part css start */
+.right_part{
+	width:775px;
+	position:absolute;
+	top:20px;
+	right:0px;
+	font-size:12px;
+}
+.right_part .right_box1{
+	border-bottom:1px solid #e7e7e7;
+	padding-bottom:5px;
+	margin-bottom:18px;
+}
+
+.right_part .right_box1 .red{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.right_part .right_box1 img{
+	position:relative;
+	top:2px;
+}
+
+.right_part .right_box2{
+	position:relative;
+	line-height:25px;
+	border:1px solid #f8cfa5;
+	box-shadow:0px 0px 0px 4px #fff1e1;
+	padding:20px 30px;
+	margin-bottom:20px;
+}
+
+.right_part .right_box2 .top_tit .store_name{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.right_part .right_box2 .top_tit .line2 .red{
+	font-weight:bold;
+	padding:0px 5px;
+}
+
+.right_part .right_box2 .box2-main .red{
+	font-family:'Tahoma';
+	font-size:9px;
+	position:relative;
+	left:5px;
+	top:-1px;
+}
+
+.right_part .right_box2 .box2-main .pic{
+	position:absolute;
+	top:20px;
+	right:45px;
+}
+
+.right_part .right_box2 .box2-main .pic .sqtupian{
+	position:absolute;
+	right:0px;
+	color:#7878d2;
+	line-height:9px;
+}
+
+.right_part .right_box2 .box2-main .pic .sqtupian img{
+	position:relative;
+	top:3px;
+}
+
+.right_part .right_box2 .dianping_area button{
+	background:url(../img/shop%20img/%E5%95%86%E6%88%B7%E4%BF%A1%E6%81%AF_%E8%AF%A6%E7%BB%86_03-2.png) repeat-x;
+	border:1px solid #e28163;
+	height:33px;
+	line-height:3px;
+	width:90px;
+	border-radius:3px;
+	color:#fff;
+	font-size:14px;
+	margin-top:8px;
+}
+
+.right_part .top_tit_red{
+	font-size:16px;
+	color:#cc0000;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.right_part .right_box3{
+	height:180px;
+	border-bottom:1px dashed #e7e7e7;
+	margin-bottom:20px;
+}
+	
+.right_part .right_box3 li{
+	display:block;
+	float:left;
+	margin-right:15px;
+	text-align:center;
+}
+
+.right_part .right_box4{
+	border-bottom:1px dashed #e7e7e7;
+	margin-bottom:20px;
+	height:460px;
+}
+.right_part .right_box4 .pinglun{
+	position:relative;
+	height:200px;
+}
+
+.right_part .right_box4 .pinglun .left{
+	position:absolute;
+	left:0px;
+	top:0px;
+	margin-right:5px;
+	width:60px;
+	height:60px;
+}
+
+.right_part .right_box4 .pinglun .right{
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:710px;
+	height:300px;
+}
+
+.right_part .right_box4 .pinglun .user_name{
+	background:#f3f3f3;
+	line-height:30px;
+	margin-bottom:18px;
+	padding-left:10px;
+	margin-left:-10px;
+}
+
+.right_part .right_box4 .pinglun .user_name img{
+	position:relative;
+	top:2px;
+	left:5px;
+}
+
+.right_part .right_box4 .pinglun .pfqk img{
+	position:relative;
+	top:2px;
+}
+
+.right_part .right_box4 .pinglun .pfqk span{
+	padding-left:10px;
+}
+
+.right_part .right_box4 .bottom_bar .gray{
+	float:left;
+}
+
+.right_part .right_box4 .bottom_bar .gray2{
+	color:#999;
+}
+
+.right_part .right_box4 .tj_cook{
+	margin-bottom:10px;
+	font-size:14px;
+}
+
+.right_part .right_box5 .pinglun_box{
+	margin:30px 0px 0px 30px;
+}
+
+.right_part .right_box5 .left{
+	width:50px;
+	height:50px;
+	float:left;
+}
+
+.right_part .right_box5 .left em{
+	position:relative;
+	top:3px;
+	left:-2px;
+}
+
+.right_part .right_box5 .right .text_area{
+	position:relative;
+	width:680px;
+	height:80px;
+	border:1px solid #d9d9d9;
+	vertical-align:text-top;
+}
+
+.right_part .right_box5 .right button{
+	background:url(../img/shop%20img/%E5%95%86%E6%88%B7%E4%BF%A1%E6%81%AF_%E8%AF%A6%E7%BB%86_03-2.png) repeat-x;
+	border:1px solid #e28163;
+	height:33px;
+	line-height:3px;
+	width:90px;
+	border-radius:3px;
+	color:#fff;
+	font-size:14px;
+	margin-top:10px;
+	margin-left:50px;
+}
+
+.right_part .right_box5 .right img{
+	position:absolute;
+	right:15px;
+	bottom:45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

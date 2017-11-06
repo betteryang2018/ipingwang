@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#333;
+}
+
+input,button,p,table,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,i{
+	list-style:none;
+}
+
+img{
+	border:none;
+}
+
+button{
+	cursor:pointer;
+}
+
+a{
+	text-decoration:none;
+	color:#666;
+	cursor:pointer;
+}
+
+em,i{
+	font-style:normal;
+}
+
+
+.wrap{
+	width:1020px;
+	margin:0 auto;
+}
+
+/*header css start*/
+
+.header{
+	background:url(../img/shouye/%E9%A6%96%E9%A1%B520120929_03.png) repeat-x;
+	margin-top:10px;
+	height:50px;
+	line-height:50px;
+}
+
+.header .logo_img{
+	display:inline-block;
+	margin-left:40px;
+	margin-right:5px;
+	display:block;
+	float:left;
+}
+
+.header .hd_txt_part{
+	border-bottom:3px solid #f5780c;
+	float:left;
+	position:relative;
+	bottom:9px;
+	width:868px;
+}
+
+.header .hd_left{
+	float:left;
+	position:relative;
+	top:19px;
+	font-size:16px;
+	width:400px;
+}
+
+.header .hd_left a{
+	background:url(../img/shouye/%E9%A6%96%E9%A1%B5ABGCOLOR.png) repeat-x;
+	display:block;
+	float:left;
+	border:1px solid #f8cea4;
+	border-radius:2px;
+	line-height:30px;
+	padding:0 17px;
+	border-bottom:none;
+	margin-right:4px;
+	margin-left:-1px;
+}
+
+.header .hd_left a.active{
+	display:inline-block;
+	color:#fff;
+	font-weight:bold;
+	background:url(../img/shouye/%E9%A6%96%E9%A1%B520120929_03-1.png) repeat-x;
+	height:30px;
+}
+
+
+.header .hd_right{
+	float:right;
+	position:relative;
+	top:10px;
+	font-size:14px;
+	padding-right:20px;
+}
+
+.header .hd_right a{
+	display:inline-block;
+	float:left;
+	color:#999;
+}
+
+.header .hd_right .lg_rs_box{
+	float:left;
+	margin:0 10px;
+	color:#333;
+}
+
+.header .hd_right .lg_rs_box a{
+	color:#333;
+	float:left;
+}
+
+.header .hd_right .lg_rs_box em{
+	display:inline-block;
+	float:left;
+	margin:0 5px;
+	color:#aaa;
+	position:relative;
+	font-style:normal;
+}
+
+/*footer css start*/
+
+.footer{
+	border-top:1px solid #dedede;
+	padding-top:20px;
+	text-align:center;
+	color:#aaa;
+	font-size:14px;
+	height:50px;
+	margin-top:30px;
+	line-height:22px;
+}
+
+.footer p{
+	margin:0px;
+	padding:0px;
+}
+
+.footer .conect_box a{
+	color:#aaa;
+	margin:0 3px;
+}
+
+
+
+
+
+
+
+
+
+

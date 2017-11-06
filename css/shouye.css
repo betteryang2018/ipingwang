@@ -1,0 +1,417 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*main_body box1 css start*/
+
+.main_body{
+	height:1280px;
+}
+
+.main_body .box1{
+	border:5px solid #e1e1e1;
+	padding:30px 0px 0px 20px;
+	height:450px;
+}
+
+p{
+	margin:0px; 
+}
+
+.main_body .box1 .box_bottom{
+	margin-top:30px;
+	padding-bottom:30px;
+}
+
+.main_body .box1 .box_bottom a{
+	color:#db3f42;
+	font-weight:bold;
+}
+
+.main_body .box1 .bottom_1{
+	float:left;
+	width:480px;
+}
+
+.main_body .box1 .bottom_1 ul{
+	margin-left:-40px;
+	margin-top:5px;
+}
+
+.main_body .box1 .bottom_1 li{
+	margin-bottom:10px;
+}
+
+.main_body .box1 .bottom_1 .rules_box i.circle_icon{
+	display:inline-block;
+	border:1px solid #fff;
+	border-radius:50%;
+	width:23px;
+	height:23px;
+	line-height:23px;
+	color:#fff;
+	text-align:center;
+	font-size:20px;
+}
+
+.main_body .box1 .bottom_1 i.mh{
+	background-color:#f464bc;
+}
+
+.main_body .box1 .bottom_1 i.blue{
+	background-color:#68a2f3;
+}
+
+.main_body .box1 .bottom_1 i.green{
+	background-color:#75ca14;
+}
+
+.main_body .box1 .bottom_1 i.brown{
+	background-color:#c3b810;
+}
+
+.main_body .box1 .input_box{
+	margin-top:40px;
+}
+
+.main_body .box1 .input_box .shuruzifu{
+	display:block;
+	margin-bottom:5px;
+}
+
+.main_body .box1 .input_box input{
+	border:1px solid #d7d7d7;
+	border-top:1px solid #aaa;
+	border-bottom:1px solid #e1e1e1;
+	border-radius:4px;
+	width:300px;
+	height:35px;
+}
+
+.main_body .box1 .input_box button{
+	width:75px;
+	height:30px;
+	line-height:25px;
+	border:1px solid #f87d06;
+	background:url(../img/shouye/%E9%A6%96%E9%A1%B520120929_03-1.png) repeat-x;
+	border-radius:4px;
+	color:#fff;
+	font-weight:bold;
+	box-shadow:1px 1px 1px 0px #d9d9d9;
+	font-size:18px;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+.main_body .box1 .bottom_r{
+	float:right;
+	margin-top:-10px;
+	margin-right:40px;
+}
+
+/*box2 css start*/
+
+.main_body .box2{
+	position:relative;
+	width:1020px;
+	height:220px;
+	margin:20px 0;
+}
+
+.main_body .box2 .top_tit{
+	border-bottom:2px solid #f3740b;
+	height:24px;
+}
+
+.main_body .box2 .top_tit span{
+	display:inline-block;
+	float:left;
+	margin-right:10px;
+	font-size:18px;
+	color:#666;
+}
+
+.main_body .box2 .top_tit .chwl a{
+	background:url(../img/shouye/%E9%A6%96%E9%A1%B520120929_03-5.png) repeat-x;
+	display:inline-block;
+	font-size:16px;
+	color:#f67a06;
+	width:35px;
+	height:20px;
+	border:1px solid #f9cfa5;
+	margin:0px;
+	text-align:center;
+	vertical-align:20px;
+	margin-left:-5px;
+	margin-top:2px;
+}
+
+.main_body .box2 .top_tit .chwl a.on{
+	background:url(../img/shouye/%E9%A6%96%E9%A1%B520120929_03-1.png) repeat-x;
+	color:#fff;
+	border:1px solid #f6790d;
+}
+
+.main_body .box2 .pro_zhanshi a{
+	display:inline-block;
+	float:left;
+}
+
+.left_arrow {
+	transform:rotate(180deg);
+	position:absolute;
+	left:0px;
+	top:70px;
+	margin:0 15px;
+}
+
+.right_arrow {
+	position:absolute;
+	right:0px;
+	top:70px;
+	margin:0 15px;
+}
+
+.button{
+	position:absolute;
+	background:url(../img/shouye/arrow.png) center no-repeat;
+	width:27px;
+	height:55px;
+	right:0px;
+	top:70px;
+	margin:0 15px;
+}
+
+.button:hover{
+	background-color:rgba(0,0,0,0.60);
+	color:#fff;
+}
+
+
+.main_body .box2 .proWrap{
+	width:988px;
+	height:174px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.main_body .box2 .pro_zhanshi li{
+	width:157px;
+	margin-right:30px;
+	float:left;
+}
+
+.main_body .box2 .pro_pic{
+	width:157px;
+	height:114px;
+}
+
+.main_body .box2 .pro_zhanshi li a.store_name{
+	width:157px;
+	font-size:15px;
+}
+
+.main_body .box2 .pro_zhanshi li .dp_num{
+	color:#999;
+	font-size:12px;
+}
+
+.main_body .box2 .pro_zhanshi li.last_one{
+	margin-right:0px;
+}
+
+
+/*box3 css start*/
+
+.main_body .box3{
+	height:330px;
+	font-family:'simsun';
+	font-size:13px;
+}
+
+.main_body .box3 .left_box{
+	border-right:1px dotted #ccc;
+	float:left;
+	width:260px;
+	padding-right:20px;
+	line-height:22px;
+	height:330px;
+	position:relative;
+}
+
+.main_body .box3 .top_bar{
+	border-bottom:1px solid #e7e7e7;
+	padding-bottom:8px;
+}
+
+.main_body .box3 .top_bar a.red_tit{
+	color:#ca0000;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.main_body .box3 .left_box ul{
+	margin-left:-30px;
+}
+
+.main_body .box3 .left_box ul li{
+	display:block;
+	height:70px;
+}
+
+.main_body .box3 .left_box ul li .store_pic{
+	display:block;
+	float:left;
+	margin-right:5px;
+	margin-top:-5px;
+}
+
+.main_body .box3 .left_box ul li .little_tit{
+	display:block;
+	width:230px;
+}
+
+.main_body .box3 .left_box ul .xxqk a{
+	color:#999;
+}
+
+.main_body .box3 .left_box ul .xxqk em{
+	color:#999;
+	font-style:normal;
+}
+
+.main_body .box3 .medium_box{
+	border-right:1px dotted #ccc;
+	float:left;
+	padding:0 20px;
+	width:400px;
+	height:330px;
+	position:relative;
+	line-height:22px;
+}
+
+.main_body .box3 .medium_box ul{
+	margin-left:-40px;
+	color:#b9b9b9;
+	line-height:22px;
+}
+
+.main_body .box3 .medium_box ul li{
+	height:90px;
+}
+
+.main_body .box3 .medium_box ul li a{
+	color:#6367cb;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.main_body .box3 .medium_box a.user_face{
+	display:block;
+	float:left;
+	margin-right:5px;
+	margin-top:-5px;
+}
+
+.main_body .box3 .medium_box ul li em{
+	font-style:normal;
+	margin:0 5px;
+	font-family:'microsoft yahei';
+	color:#333;
+}
+
+.main_body .box3 .medium_box ul li span{
+	font-weight:bold;
+}
+
+.main_body .box3 .right_box{
+	float:left;
+	padding-left:20px;
+	width:280px;
+	line-height:22px;
+	margin-right:-10px;
+	height:330px;
+	position:relative;
+}
+
+.main_body .box3 .right_box ul{
+	margin-left:-40px;
+	line-height:25px;
+}
+
+
+
+.main_body .box3 .right_box ul li a{
+	color:#6567cc;
+}
+
+.main_body .box3 .right_box ul li .square{
+	display:inline-block;
+	width:4px;
+	height:4px;
+	background:#6567cc;
+	position:relative;
+	top:-3px;
+	right:-4px;
+}
+
+.main_body .box3 a.take_more{
+	color:#999;
+	float:right;
+	position:absolute;
+	right:20px;
+	bottom:3px;
+}
+
+/*box4 css start*/
+
+.main_body .box4{
+	position:relative;
+	height:200px;
+}
+
+.main_body .box4 .title_box{
+	border-bottom: 2px solid #f3740b;
+    height: 24px;
+	font-size: 18px;
+    color: #666;
+	margin:20px 0px;
+}
+
+.main_body .box4 .shangpinzhanshi{
+	padding-left:20px;
+	margin-right:-20px;
+}
+
+.main_body .box4 ul li{
+	width: 157px;
+    height: 114px;
+    margin-right: 30px;
+    float: left;
+}
+
+.main_body .box4 .left_arrow{
+	margin:0px;
+}
+	
+.main_body .box4 .right_arrow{
+	margin-left:-15px;
+}
+
+.main_body .box4 p{
+	font-size:16px;
+	color:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
