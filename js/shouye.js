@@ -1,37 +1,39 @@
 // JavaScript Document
 
 var index=0,
-	dataIndex=0,
-	titIndex=0,
-	timer=null,
+	timer1=null,
 	chwl=byId("chwl"),
 	proWrap=byId("proWrap"),
 	proMain=byId("pro_main"),
-	box4Main=byId("box4_main"),
-	spzsWrap=byId("spzs_wrap"),
-	topBar=byId("topBarStyle"),
-	topBarTits=topBar.getElementsByTagName("a"),
-	giftPics=spzsWrap.getElementsByTagName("ul"),
 	topTits=chwl.getElementsByTagName("a"),
 	len=topTits.length,
 	ulPics=proWrap.getElementsByTagName("ul"),
 	next=byId("next"),
 	prev=byId("prev"),
+	dataIndex=0,
+	titIndex=0,
+	timer=null,
+	box4Main=byId("box4_main"),
+	spzsWrap=byId("spzs_wrap"),
+	topBar=byId("topBarStyle"),
+	topBarTits=topBar.getElementsByTagName("a"),
+	giftPics=spzsWrap.getElementsByTagName("ul"),
+	len=topBarTits.length,
 	leftArrow=byId("left_arrow"),
 	rightArrow=byId("right_arrow");
+	
 
-
-/*-------------吃喝玩乐部分 图片轮播----------------*/
+/* 吃喝玩乐 图片轮播 */
 
 function slideImg(){
 	// 当鼠标停留时，取消定时器
 	proMain.onmouseover=function(){
-		clearInterval(timer);
+		clearInterval(timer1);
 	}
 	
 	// 当鼠标离开3秒后，切换图片
 	proMain.onmouseout=function(){
-		timer=setInterval(function(){
+		timer1=setInterval(function(){
 			index++;
 			if(index>=len) index=0;
 			changeImg();
@@ -79,7 +81,7 @@ function changeImg(){
 slideImg();  
 
 
-/*-------------赠送礼品部分 图片轮播---------------*/
+/*赠送礼品 图片轮播*/
 
 function slideImg2(){
 	// 当鼠标停留时，取消定时器
@@ -87,7 +89,7 @@ function slideImg2(){
 		clearInterval(timer);
 	}
 	
-	// 当鼠标离开3秒后，切换图片
+	// 当鼠标离开5秒后，切换图片
 	box4Main.onmouseout=function(){
 		timer=setInterval(function(){
 			dataIndex++;
@@ -125,7 +127,8 @@ function changeImg2(){
   
 slideImg2();  
   
-/*-------------吃货榜 js begin---------------*/  
+  
+/*吃货榜 js begin*/  
   
 // 遍历所有标题，使点击标题时切换样式
 function changeTitStyle(){
@@ -146,10 +149,8 @@ function changeTit(){
 } 
     
 changeTitStyle()  
-  
- 
-  
-	
+
+
 // 封装一个获得id的函数
 function byId(id){
   return typeof(id)==="string"?document.getElementById(id):id;
