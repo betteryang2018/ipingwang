@@ -8,7 +8,7 @@
 	padding:30px 25px;
 }
 
-p,ul{
+p,ul,ol{
 	margin:0px;
 	padding:0px;
 }
@@ -33,15 +33,46 @@ p,ul{
 	float:left;
 }
 
-.main_body .containt .left_part ul{
+.main_body .containt {
 	color:#f78a04;
 	margin-top:30px;
 	font-weight:bold;
 	font-size:14px;
 }
 
+.left_part ul span{
+	display:inline-block;
+	float:left;
+}
+
+.main_body .containt .left_part ol{
+	color: #f78a04;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.left_part .score{
+	display:inline-block;
+	float:left;
+	font-size:36px;
+	position:relative;
+	top:-16px;
+	left:10px;
+	font-style:normal;
+}
+
 .main_body .containt .left_part li{
 	margin-bottom:10px;
+	background:url(../img/else/uncheck.png) no-repeat;
+	width:30px;
+	height:30px;
+	display:inline-block;
+	float:left;
+	margin:0 3px;
+	position:relative;
+	top:-6px;
+	cursor: pointer;
 }
 
 .main_body .containt .left_part li img{
