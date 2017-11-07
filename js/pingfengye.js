@@ -11,10 +11,15 @@ var index=0,
 	ol3=olArr[2].getElementsByTagName("li"),
 	ol4=olArr[3].getElementsByTagName("li"),
 	ol5=olArr[4].getElementsByTagName("li"),
+	scr1=olArr[0].getElementsByTagName("i")[0],
+	scr2=olArr[1].getElementsByTagName("i")[0],
+	scr3=olArr[2].getElementsByTagName("i")[0],
+	scr4=olArr[3].getElementsByTagName("i")[0],
+	scr5=olArr[4].getElementsByTagName("i")[0],
 	len=ol1.length;
 
 // 遍历星星，并绑定事件
-function check(ratingItems){
+function check(ratingItems,scoreVal){
 	for(var i=0;i<len;i++){
 		// 给每个星星添加一个id属性为索引
 		ratingItems[i].id=i;
@@ -46,16 +51,17 @@ function check(ratingItems){
 			ratingItems[j].style.background="url(img/else/check.png)";
 		}
 		// 显示分数
+		scoreVal.innerHTML=parseInt(index)+1;
 	}
 }
 
 
 
-check(ol1); 
-check(ol2); 
-check(ol3); 
-check(ol4); 
-check(ol5); 
+check(ol1,scr1); 
+check(ol2,scr2); 
+check(ol3,scr3); 
+check(ol4,scr4); 
+check(ol5,scr5); 
 
 
 
