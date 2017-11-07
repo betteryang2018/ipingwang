@@ -143,7 +143,8 @@ p{
 	margin:0px;
 	text-align:center;
 	vertical-align:20px;
-	margin-left:-5px;
+	position:relative;
+	left:-5px;
 	margin-top:2px;
 }
 
