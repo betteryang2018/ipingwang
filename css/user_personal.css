@@ -88,6 +88,7 @@
 
 .main_body .box2_containt img{
 	width:455px;
+	float:left;
 }
 
 .main_body .box2_containt .pic1{

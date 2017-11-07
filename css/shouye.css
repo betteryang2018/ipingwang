@@ -158,7 +158,7 @@ p{
 }
 
 .left_arrow {
-	transform:rotate(180deg);
+	background:url(../img/shouye/arrow2.png) center no-repeat;
 	position:absolute;
 	left:0px;
 	top:70px;
@@ -166,6 +166,7 @@ p{
 }
 
 .right_arrow {
+	background:url(../img/shouye/arrow.png) center no-repeat;
 	position:absolute;
 	right:0px;
 	top:70px;
@@ -174,7 +175,6 @@ p{
 
 .button{
 	position:absolute;
-	background:url(../img/shouye/arrow.png) center no-repeat;
 	width:27px;
 	height:55px;
 	right:0px;
@@ -190,7 +190,7 @@ p{
 
 .main_body .box2 .proWrap{
 	width:988px;
-	height:174px;
+	height:168px;
 	margin:0 auto;
 	overflow:hidden;
 }
