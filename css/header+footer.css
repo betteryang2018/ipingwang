@@ -4,7 +4,7 @@ body,html{
 	margin:0px;
 	padding:0px;
 	list-style:none;
-	font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:'Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif';
 	color:#333;
 }
 
