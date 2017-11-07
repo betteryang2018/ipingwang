@@ -31,6 +31,7 @@ p,ul,ol{
 
 .main_body .containt .left_part{
 	float:left;
+	width:420px;
 }
 
 .main_body .containt {
@@ -50,6 +51,7 @@ p,ul,ol{
     margin-top: 30px;
     font-weight: bold;
     font-size: 14px;
+	width:420px;
 }
 
 .left_part .score{
@@ -67,6 +69,7 @@ p,ul,ol{
 	background:url(../img/else/uncheck.png) no-repeat;
 	width:30px;
 	height:30px;
+	line-height:30px;
 	display:inline-block;
 	float:left;
 	margin:0 3px;
