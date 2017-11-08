@@ -151,24 +151,25 @@
 	color:#fff;
 	font-weight:bold;
 	padding:0 20px;
-	margin-right:25px;
 }
 
 .main_body .box3 .top_bar .time{
+	display:inline-block;
+	width:166px;
+	height:20px;
+	line-height:28px;
+}
+
+.main_body .box3 .top_bar .time span{
 	float:left;
-}
-
-
-.main_body .box3 .top_bar input{
-	width:40px;
-	height:14px;
-	padding-left:4px;
-	font-weight:bold;
-	margin-left:-25px;
-}
-
-.main_body .box3 .top_bar input.year{
 	width:50px;
+}
+
+
+.main_body .box3 .top_bar select{
+	margin:3px;
+	font-weight:bold;
+	width:40px;
 }
 
 .main_body .box3 .top_bar .arrow_down{
@@ -178,10 +179,6 @@
 	left:-26px;
 }
 
-.main_body .box3 .top_bar .year_input .arrow_down{
-	position:relative;
-	left:-25px;
-}
 
 .main_body .box3 .top_bar .chaxun{
 	border:1px solid #e5ecf6;

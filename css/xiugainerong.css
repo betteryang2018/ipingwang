@@ -145,7 +145,7 @@ p,ul{
 	width:86px;
 }
 
-.main_body .right_part .tianxie_xinxi .gxqm input{
+.main_body .right_part .tianxie_xinxi .gxqm textarea{
 	width:310px;
 	height:70px;
 	border:1px solid #d9d9d9;
@@ -155,9 +155,12 @@ p,ul{
 	margin:10px 0px;
 }
 
-.main_body .right_part .tianxie_xinxi .gxqm span{
+.main_body .right_part .tianxie_xinxi .gxqm{
 	position:relative;
-	top:-25px;
+}
+
+.main_body .right_part .tianxie_xinxi .gxqm .txtNr{
+	float:left;
 }
 .main_body .right_part .tianxie_xinxi .gxqm img{
 	width:10px;
