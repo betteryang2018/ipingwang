@@ -32,6 +32,7 @@ p{
 .main_body .box1 .bottom_1{
 	float:left;
 	width:480px;
+	height:331px;
 }
 
 .main_body .box1 .bottom_1 ul{
@@ -74,6 +75,7 @@ p{
 .main_body .box1 .input_box{
 	margin-top:40px;
 	width:500px;
+    height: 117px;
 }
 
 .main_body .box1 .input_box .shuruzifu{
@@ -106,6 +108,8 @@ p{
 }
 
 .main_body .box1 .bottom_r{
+	width:442px;
+	height:352px;
 	float:right;
 	margin-top:-10px;
 	margin-right:40px;
