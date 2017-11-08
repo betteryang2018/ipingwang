@@ -236,9 +236,26 @@ p{
 /*box3 css start*/
 
 .main_body .box3{
+	position:relative;
+	width:1020px;
 	height:330px;
 	font-family:'simsun';
 	font-size:13px;
+}
+
+.main_body #box3Wrap{
+	width:255px;
+	height:300px;
+	overflow:hidden;
+}
+
+.main_body #box3Wrap .box3_ulWrap{
+	float:left;
+}
+
+.main_body #box3Wrap img{
+	width:52px;
+	height:53px;
 }
 
 .main_body .box3 .left_box{
@@ -254,6 +271,12 @@ p{
 .main_body .box3 .top_bar{
 	border-bottom:1px solid #e7e7e7;
 	padding-bottom:8px;
+}
+
+.main_body .box3 #topBarStyle a{
+	display:inline-block;
+	width:49px;
+	text-align:center;
 }
 
 .main_body .box3 .top_bar a.red_tit{
@@ -379,6 +402,7 @@ p{
 
 .main_body .box4{
 	position:relative;
+	width:1020px;
 	height:200px;
 }
 
