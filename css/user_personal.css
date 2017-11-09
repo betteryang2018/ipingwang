@@ -201,32 +201,24 @@
 
 .main_body .box4 a{
 	display:inline-block;
-	padding:4px 7px;
+	height:24px;
+	line-height:24px;
+	padding:0 7px;
 	border:1px solid #d4d9dc;
 	text-align:center;
 	color:#5274b3;
-	font-family:'Tahoma';
 }
 
-.main_body .box4 a:hover{
+.main_body .box4 .active{
+	height:24px;
+	line-height:24px;
+	padding:0 7px;
 	color:#fff;
 	background-color:#6766cc;
 	border:1px solid #6766cc;
 }
 
-.main_body .box4 .first_page{
-	color:#fff;
-	font-weight:bold;
-	background-color:#6766cc;
-	border:1px solid #6766cc;
-}
-
-.main_body .box4 .next_page {
-	padding:3px 7px;
-	position:relative;
-}
-
-.main_body .box4 .next_page img{
+.main_body .box4 .nextPageImg{
 	position:relative;
 	width:9px;
 	left:3px;
